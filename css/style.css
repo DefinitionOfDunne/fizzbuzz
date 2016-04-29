@@ -1,111 +1,115 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
-    body {
-        font-family: 'Lato', sans-serif;
-        background: #eaeaea;
-        background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/school.png"); 
-    }
+body {
+    font-family: 'Lato', sans-serif;
+    background: #eaeaea;
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/school.png");
+}
 
-    .mac-dre {
-        position: fixed;
-        top: 75px;
-        left: 30px;
-        width: 150px;
-        height: 180px;
-    }
-    .word-bubble {
-        position: fixed;
-        top: 10px;
-        left: 120px;
-        width: 150px;
-       }
-    .call-out{
-        position:fixed;
-        z-index: 2;
-        top:25px;
-        left: 170px;
-        font-size: 20px;
-        font-weight: bolder;
-    }
-    .subhead {
-        position: fixed;
-        text-align: center;
-        font-style: italic;
-        top: 250px;
-        left:50px;
-    }
-    .container h1 {
-        font-size: 4em;
-        letter-spacing: -1px;
-        text-align: center;
-        line-height: 40px;
-        margin-top: 100px;
-    }
-    
-    .container h1 span:first-child {
-        color: orange;
-        font-weight: bolder;
-        font-size: 3.5em;
-    }
-    
-    .container h1 span:last-child {
-        color: black;
-        font-weight: bolder;
-        font-size: 1.5em;
-        font-style: italic;
-        text-shadow: 0 5px 5px rgba(68, 68, 68, 0.5)
-    }
-    
-    ul {
-        padding: 0;
-        margin: 0 0 5em 0;
-    }
-    
-    ul li {
-        list-style-type: none;
-        padding: 15px 0;
-        text-align: center;
-        letter-spacing: 10px;
-    }
-    
-    ul li:nth-child(odd) {
-        background: #FFA500;
-        font-size: 2em;
-        color: #000000;
-    }
-    
-    ul li:nth-child(even) {
-        background: #000000;
-        font-size: 4em;
-        color: #FFA500;
-    }
-    
-    .container {
-        width: 600px;
-        margin: auto;
-        box-sizing: border-box;
-    }
-    
-    .fb-input {
-        width: 99.3%;
-        padding: 20px 0;
-        text-align: center;
-        border: 2px outset orange;
-        background: white;
-        outline: none;
-        border-bottom:0;
-        font-size:3em;
+.mac-dre {
+    position: fixed;
+    top: 75px;
+    left: 30px;
+    width: 150px;
+    height: 180px;
+}
 
-    }
-    
-    .fb-button {
-        width: 100%;
-        -webkit-appearance: none;
-        padding: 20px 0;
-        border: 2px outset orange;
-        background: white;
-        outline:none;
-        margin-bottom:2em;
-        text-transform: uppercase;
-        font-size: 2em;
-        color:orange;
-    }
+.word-bubble {
+    position: fixed;
+    top: 10px;
+    left: 120px;
+    width: 150px;
+}
+
+.call-out {
+    position: fixed;
+    z-index: 2;
+    top: 25px;
+    left: 170px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.subhead {
+    position: fixed;
+    text-align: center;
+    font-style: italic;
+    top: 250px;
+    left: 50px;
+}
+
+.container h1 {
+    font-size: 4em;
+    letter-spacing: -1px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 100px;
+    line-height: 50px;
+}
+
+.container h1 span:first-child {
+    color: orange;
+    font-weight: bolder;
+    font-size: 3.5em;
+}
+
+.container h1 span:last-child {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5em;
+    font-style: italic;
+    text-shadow: 0 5px 5px rgba(68, 68, 68, 0.5)
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 5em 0;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 15px 0;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+ul li:nth-child(odd) {
+    background: #FFA500;
+    font-size: 2em;
+    color: #000000;
+}
+
+ul li:nth-child(even) {
+    background: #000000;
+    font-size: 4em;
+    color: #FFA500;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.fb-input {
+    width: 99.3%;
+    padding: 20px 0;
+    text-align: center;
+    border: 2px outset orange;
+    background: white;
+    outline: none;
+    border-bottom: 0;
+    font-size: 3em;
+}
+
+.fb-button {
+    width: 100%;
+    -webkit-appearance: none;
+    padding: 20px 0;
+    border: 2px outset orange;
+    background: white;
+    outline: none;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: orange;
+}
