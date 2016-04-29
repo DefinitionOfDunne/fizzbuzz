@@ -1,38 +1,40 @@
 $(document).ready(function () {
-$('.fb-button').click(function () {
-    var inputNumber = parseInt($('.fb-input').val());
 
-    if (isNaN(inputNumber) || inputNumber > 100) {
+    $('.fb-button').click(function () {
+        var inputNumber = parseInt($('.fb-input').val());
 
-        $('.fb-message').text("Yo bro, enter an integer brah, between 1 & 100 yo.");
+        if (isNaN(inputNumber) || inputNumber > 100) {
 
-    } else {
+            $('.fb-message').text("Yo bro, enter an integer brah, between 1 & 100 yo.");
 
-        $('.fb-input').empty();
-        $('.fb-message').empty();
+        } else {
 
-        fizzbuzz(inputNumber);
+            $('.fb-input').empty();
+            $('.fb-message').empty();
 
-        $(".call-out").empty();
-        $(".call-out").append(inputNumber + "?!?");
+            fizzbuzz(inputNumber);
+
+            $(".call-out").empty();
+            $(".call-out").append(inputNumber + "?!?");
+        }
+    });
+
+    function fizzbuzz(inputNumber) {
+
+        $('ul li').remove();
+
+        for (var n = 1; n < inputNumber; n++) {
+
+            n % 5 !== 0 && n % 3 !== 0 ? append(n) : false;
+            n % 15 === 0 ? append('ThizzBuzz') : false;
+            n % 3 === 0 ? append('Thizz') : false;
+            n % 5 === 0 ? append('Buzz') : false;
+
+        }
     }
-});
 
-function fizzbuzz(inputNumber) {
-
-    $('ul li').remove();
-
-    for (var n = 1; n < inputNumber; n++) {
-
-        n % 5 !== 0 && n % 3 !== 0 ? append(n) : false;
-        n % 15 === 0 ? append('ThizzBuzz') : false;
-        n % 3 === 0 ? append('Thizz') : false;
-        n % 5 === 0 ? append('Buzz') : false;
-
+    function append(item) {
+        $(".fb-list").append('<li>' + item + '</li>');
     }
-}
 
-function append(item) {
-    $(".fb-list").append('<li>' + item + '</li>');
-}
 });
