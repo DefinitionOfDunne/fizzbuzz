@@ -36,10 +36,10 @@ $(document).ready(function () {
         
 
         for (var n = 1; n <= inputNumber; n++) {
-            n % 5 !== 0 && n % 3 !== 0 ? append(n) : false;
-            n % 5 === 0 ? append('Buzz') : false;
-            n % 3 === 0 ? append('Thizz') : false;
-            n % 3 === 0 && n % 5 ? append('ThizzBuzz') : false;
+        n % 5 !== 0 && n % 3 !== 0 ? append(n) : false;
+        n % 15 === 0 ? append('ThizzBuzz') : false;
+        n % 3 === 0 ? append('Thizz') : false;
+        n % 5 === 0 ? append('Buzz') : false;
 
             // ternary operator
             /*
