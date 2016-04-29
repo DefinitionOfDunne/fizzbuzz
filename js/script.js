@@ -26,7 +26,7 @@ $(document).ready(function () {
     
     setTimeout(function() {
         $(".call-out").empty();
-        }, 2000);
+        }, 2500);
     });
 
 

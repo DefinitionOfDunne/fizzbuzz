@@ -34,17 +34,17 @@
         left:50px;
     }
     .container h1 {
-        font-size: 3em;
-        letter-spacing: -4px;
+        font-size: 4em;
+        letter-spacing: -1px;
         text-align: center;
-        line-height: 24px;
+        line-height: 40px;
         margin-top: 100px;
     }
     
     .container h1 span:first-child {
         color: orange;
         font-weight: bolder;
-        font-size: 4em;
+        font-size: 3.5em;
     }
     
     .container h1 span:last-child {
@@ -57,7 +57,7 @@
     
     ul {
         padding: 0;
-        margin: 0;
+        margin: 0 0 5em 0;
     }
     
     ul li {
@@ -82,27 +82,29 @@
     .container {
         width: 600px;
         margin: auto;
+        box-sizing: border-box;
     }
     
     .fb-input {
-        width: 99.7%;
+        width: 99.3%;
         padding: 20px 0;
         text-align: center;
-        border: 1px solid orange;
+        border: 2px outset orange;
         background: white;
         outline: none;
         border-bottom:0;
-        font-size:4em;
+        font-size:3em;
+
     }
     
     .fb-button {
         width: 100%;
         -webkit-appearance: none;
         padding: 20px 0;
-        border: 1px solid orange;
+        border: 2px outset orange;
         background: white;
         outline:none;
-        margin-bottom:5px;
+        margin-bottom:2em;
         text-transform: uppercase;
         font-size: 2em;
         color:orange;
