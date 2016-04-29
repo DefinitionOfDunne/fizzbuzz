@@ -39,7 +39,7 @@ $(document).ready(function () {
             n % 5 !== 0 && n % 3 !== 0 ? append(n) : false;
             n % 5 === 0 ? append('Buzz') : false;
             n % 3 === 0 ? append('Thizz') : false;
-            n % 3 === 0 && n % 5 ? append('ThizzBuzz') : false;
+            n % 3 === 0 && n % 5 === 0 ? append('ThizzBuzz') : false;
 
             // ternary operator
             /*
