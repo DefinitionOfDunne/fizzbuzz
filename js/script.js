@@ -1,3 +1,4 @@
+$(document).ready(function () {
 $('.fb-button').click(function () {
     var inputNumber = parseInt($('.fb-input').val());
 
