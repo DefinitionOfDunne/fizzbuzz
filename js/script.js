@@ -5,7 +5,7 @@ $(document).ready(function () {
 
         if (isNaN(inputNumber) || inputNumber > 100) {
 
-            $('.fb-message').text("Yo bro, enter an integer brah, between 1 & 100 yo.");
+            $('.fb-message').text("Come on you beezy, put an integer between 1 & 100!!");
 
         } else {
 
