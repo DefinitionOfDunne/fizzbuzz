@@ -23,7 +23,7 @@ $(document).ready(function () {
 
         $('ul li').remove();
 
-        for (var n = 1; n < inputNumber; n++) {
+        for (var n = 1; n <= inputNumber; n++) {
 
             n % 5 !== 0 && n % 3 !== 0 ? append(n) : false;
             n % 15 === 0 ? append('ThizzBuzz') : false;
